@@ -64,7 +64,7 @@ a {
 
 /*------------------------HEADER-----------------------*/
 .header {
-  background-color: darkgrey;
+  background-color: grey;
 }
 
 .header-link,
@@ -73,7 +73,7 @@ a {
   font-size: 12px;
   line-height: 1.33;
   letter-spacing: 0.1em;
-  color: var(--main-clr-tx);
+  color: var(--main-light-clr-tx);
 }
 
 .header-link:hover,
@@ -84,8 +84,8 @@ a {
 }
 
 .header-btn {
-  color: var(--main-clr-tx);
-  background-color: darkgrey;
+  color: var(--main-light-clr-tx);
+  background-color: grey;
 }
 
 /*--------------------------HERO---------------------*/
@@ -104,7 +104,7 @@ a {
 }
 
 .hero-content {
-  background-color: #303030;
+  background-color: grey;
 }
 
 .hero-up-text {
@@ -112,12 +112,12 @@ a {
 }
 
 .hero-title {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 72px;
   line-height: 1.18;
   letter-spacing: 0.05em;
-  color: var(--main-clr-tx);
+  color: var(--main-light-clr-tx);
 }
 
 .hero-under-text {
@@ -139,4 +139,150 @@ a {
   color: var(--dark-clr-tx);
 }
 
+.about-btn {
+  color: var(--main-dark-clr-tx);
+}
 /*------------------------------PRICE------------------------------*/
+.price {
+  background-color: grey;
+}
+
+.price-up-text {
+  color: var(--light-clr-tx);
+}
+
+.price-title {
+  color: var(--main-light-clr-tx);
+}
+
+.price-item-text {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--light-clr-tx);
+}
+
+.price-btn {
+  color: var(--main-light-clr-tx);
+  background-color: grey;
+}
+
+/*--------------------------BENEFITS-----------------------------*/
+
+.benefits-item-count {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: calc(57 / 42);
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: var(--main-dark-clr-tx);
+}
+
+.benefits-item-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-align: center;
+  color: var(--main-dark-clr-tx);
+}
+
+.benefits-up-text,
+.benefits-title {
+  color: var(--main-dark-clr-tx);
+}
+
+.benefits-under-text {
+  color: var(--dark-clr-tx);
+}
+
+/*-----------------------------MASTERS-----------------------------*/
+.masters {
+  background-color: rgba(247, 247, 247, 1);
+}
+.masters-up-text {
+  color: var(--main-dark-clr-tx);
+}
+
+.masters-title {
+  color: var(--main-dark-clr-tx);
+}
+
+.masters-item-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.38px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--main-dark-clr-tx);
+}
+
+.masters-item-text {
+  font-size: 14px;
+  line-height: 1.35;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--accent-clr-tx);
+}
+
+/*-----------------------------GALLERY-----------------------------*/
+
+.gallery-up-text {
+  color: var(--main-dark-clr-tx);
+}
+
+.order {
+  background-color: rgba(25, 28, 38, 1);
+}
+.order-title {
+  color: var(--main-light-clr-tx);
+}
+
+/*-----------------------------CONTACTS-----------------------------*/
+
+.contacts {
+  background-color: grey;
+}
+
+.contacts-title {
+  color: var(--main-light-clr-tx);
+}
+
+.contacts-address {
+  font-style: normal;
+}
+
+.contacts-link,
+.contacts-time {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--light-clr-tx);
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--accent-clr-tx);
+}
+
+.contacts-subtitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--main-light-clr-tx);
+}
+
+/*-----------------------------FOOTER-----------------------------*/
+
+.footer {
+  background-color: rgba(247, 247, 247, 1);
+}
+
+.footer-copy {
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: #9da4bd;
+}

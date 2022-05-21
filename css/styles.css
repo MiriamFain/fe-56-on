@@ -1,6 +1,8 @@
 :root {
-  --light-clr-tx: #ffffff;
-  --dark-clr-tx: #303030;
+  --main-light-clr-tx: #ffffff;
+  --light-clr-tx: #9da4bd;
+  --main-dark-clr-tx: #303030;
+  --dark-clr-tx: #555555;
   --accent-clr-tx: #ff6c00;
 }
 
@@ -8,7 +10,7 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-ul {
+.list {
   list-style: none;
 }
 
@@ -29,17 +31,49 @@ a {
   margin: -1px;
 }
 
+.up-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+}
+
+.under-text {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+}
+
+.btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
 /*------------------------HEADER-----------------------*/
 .header {
   background-color: darkgrey;
 }
 
-.header-link {
+.header-link,
+.header-tel {
   font-weight: 600;
   font-size: 12px;
-  line-height: 1, 33;
+  line-height: 1.33;
   letter-spacing: 0.1em;
-  color: var(--light-clr-tx);
+  color: var(--main-clr-tx);
 }
 
 .header-link:hover,
@@ -49,13 +83,12 @@ a {
   color: var(--accent-clr-tx);
 }
 
-.header-tel {
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 1, 33;
-  letter-spacing: 0.1em;
-  color: var(--light-clr-tx);
+.header-btn {
+  color: var(--main-clr-tx);
+  background-color: darkgrey;
 }
+
+/*--------------------------HERO---------------------*/
 
 .social-link {
   font-weight: 600;
@@ -69,3 +102,41 @@ a {
 .social-link:focus {
   color: var(--accent-clr-tx);
 }
+
+.hero-content {
+  background-color: #303030;
+}
+
+.hero-up-text {
+  color: var(--light-clr-tx);
+}
+
+.hero-title {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+  color: var(--main-clr-tx);
+}
+
+.hero-under-text {
+  color: var(--light-clr-tx);
+}
+
+/*-------------------------------ABOUT----------------------------*/
+
+.about-up-text,
+.about-title {
+  color: var(--main-dark-clr-tx);
+}
+
+.about-under-text {
+  color: var(--dark-clr-tx);
+}
+
+.about-text {
+  color: var(--dark-clr-tx);
+}
+
+/*------------------------------PRICE------------------------------*/
